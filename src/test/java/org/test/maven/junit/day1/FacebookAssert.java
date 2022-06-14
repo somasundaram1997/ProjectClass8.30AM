@@ -25,6 +25,19 @@ public class FacebookAssert extends BaseClass{
 		System.out.println("Test ends at......."+new Date());
 
 	}
+	@Before
+	public void before1() {
+		System.out.println("Test starts at......."+new Date());
+		System.out.println("Test starts at......."+new Date());
+		System.out.println("Test starts at......."+new Date());
+	}
+	@After
+	public void after1() {
+		System.out.println("Test ends at......."+new Date());
+		System.out.println("Test ends at......."+new Date());
+		System.out.println("Test ends at......."+new Date());
+
+	}
 	
 	
 	
